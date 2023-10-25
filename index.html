@@ -372,21 +372,21 @@
                       type="number"
                       class="form-control mb-3 py-2"
                       name=""
-                      id="inputArr"
+                      id="inputArr8"
                       aria-describedby="helpId"
                       placeholder="Nhập mảng"
                     />
                     <button
                       type="button"
                       class="btn btn-primary align-items-center"
-                      onclick="addNum()"
+                      onclick="addNumFloat()"
                     >
                       Nhập mảng
                     </button>
                     <div class="outArr pt-3">
                       <div
-                        class="py-4 px-3 bg-warning fs-1 text-dark bg-opacity-50 rounded-3"
-                        id="outArr"
+                        class="py-4 px-3 bg-warning text-dark bg-opacity-50 rounded-3"
+                        id="outArr8"
                       ></div>
                     </div>
                   </div>
@@ -395,14 +395,14 @@
                   <button
                     type="button"
                     class="btn btn-primary align-items-center"
-                    onclick="Ex7()"
+                    onclick="Ex8()"
                   >
-                    Số nguyên tó đầu tiên
+                    Đếm các số nguyên
                   </button>
                   <div class="outArr py-3">
                     <div
                       class="py-4 px-3 bg-success text-dark bg-opacity-25 rounded-3"
-                      id="Ex_7"
+                      id="Ex_8"
                     ></div>
                   </div>
                 </div>
@@ -427,14 +427,48 @@
                 aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">
-                  Placeholder content for this accordion, which is intended to
-                  demonstrate the <code>.accordion-flush</code> class. This is
-                  the third item's accordion body. Nothing more exciting
-                  happening here in terms of content, but just filling up the
-                  space to make it look, at least at first glance, a bit more
-                  representative of how this would look in a real-world
-                  application.
+                <div class="py-4 mx-3">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="mb-3">
+                        <input
+                          type="number"
+                          class="form-control"
+                          name=""
+                          id="inputIndex1"
+                          aria-describedby="helpId"
+                          placeholder="Vị trí 1"
+                        />
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="mb-3">
+                        <input
+                          type="number"
+                          class="form-control"
+                          name=""
+                          id="inputIndex2"
+                          aria-describedby="helpId"
+                          placeholder="Vị trí 2"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mb-3">                  
+                    <button
+                      type="button"
+                      class="btn btn-primary align-items-center px-3"
+                      onclick="Ex9()"
+                    >
+                      Đổi chỗ
+                    </button>
+                    <div class="outArr pt-3">
+                      <div
+                        class="py-4 px-3 bg-warning text-dark bg-opacity-50 rounded-3"
+                        id="Ex_9"
+                      ></div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -457,14 +491,20 @@
                 aria-labelledby="flush-headingThree"
                 data-bs-parent="#accordionFlushExample"
               >
-                <div class="accordion-body">
-                  Placeholder content for this accordion, which is intended to
-                  demonstrate the <code>.accordion-flush</code> class. This is
-                  the third item's accordion body. Nothing more exciting
-                  happening here in terms of content, but just filling up the
-                  space to make it look, at least at first glance, a bit more
-                  representative of how this would look in a real-world
-                  application.
+               <div class="py-4 mx-3">
+                  <button
+                    type="button"
+                    class="btn btn-primary align-items-center"
+                    onclick="Ex10()"
+                  >
+                    So sánh
+                  </button>
+                  <div class="outArr py-3">
+                    <div
+                      class="py-4 px-3 bg-success text-dark bg-opacity-25 rounded-3"
+                      id="Ex_10"
+                    ></div>
+                  </div>
                 </div>
               </div>
             </div>
